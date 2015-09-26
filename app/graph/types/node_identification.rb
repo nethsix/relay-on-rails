@@ -8,6 +8,6 @@ NodeIdentification = GraphQL::Relay::GlobalNodeIdentification.define do
   end
 
   type_from_object -> (object) do
-    StarWarsSchema.types[object.class.name]
+    RelayOnRailsSchema.types[object.class.name]
   end
 end
