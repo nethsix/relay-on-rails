@@ -1,0 +1,3 @@
+== README
+
+Setup Relay/React on Rails 4
