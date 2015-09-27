@@ -1,10 +1,10 @@
 class GraphqlController < ApplicationController
   protect_from_forgery :except => [:simple]
   
-  def simple
-    query_string = 'query SimpleQuery { simple { name } }'
-    response_json = RelayOnRailsSchema.execute(query_string)
-
-    render :json => response_json, content_type: "application/json"
+  def create
+    query_string = params[:query]
+    query_variables = params[:variables] || {}
+    query = GraphQL::Query.new(RelayOnRailsSchema, query_string, variables: query_variables)
+    render json: query.result
   end
 end

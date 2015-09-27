@@ -55,8 +55,7 @@ Rails.application.routes.draw do
   #   end
 
   scope '/graphql' do
-    get "/", to: "graphql#simple"
-    post"/", to: "graphql#simple"
+    post"/", to: "graphql#create"
   end
 
   scope '/static_pages' do

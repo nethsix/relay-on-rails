@@ -6,7 +6,7 @@ QueryType = GraphQL::ObjectType.define do
     type SimpleType
     description "Simple Stuff"
     resolve -> (obj, args, ctx) do
-      { name: 'Simpleton' }
+      Hashie::Mash.new({ id: rand(1000), name: 'Simpleton' })
     end
   end
 
