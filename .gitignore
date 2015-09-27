@@ -100,5 +100,8 @@ vendor/extensions/**/spec/dummy
 
 *.keep
 
+# npm
+node_modules/
+
 # Ignore application configuration
 /config/application.yml
