@@ -1,5 +1,5 @@
 class GraphqlController < ApplicationController
-  protect_from_forgery :except => [:simple]
+  protect_from_forgery :except => [:create]
   
   def create
     query_string = params[:query]
