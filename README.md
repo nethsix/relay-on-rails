@@ -1,16 +1,16 @@
 # README
 
-Relay/React on Rails 4 starter-kit.
+Relay/GraphQL/React on Rails 4 starter-kit.
 
 ## Goals
 
 Make it easy to:
-* Start a Relay-React project on Rails
-* Follow the official Facebook Relay [tutorial](https://facebook.github.io/relay/docs/tutorial.html)
+* Start a Relay/GraphQL React project on Rails
+* Follow the official Facebook Relay/RelayJS [tutorial](https://facebook.github.io/relay/docs/tutorial.html)
 
 ## Resource
 
-* For additional info, please refer to the accompanying article [Relay (Facebook) on Rails](https://medium.com/@khor/relay-facebook-on-rails-8b4af2057152)
+* For additional info, please refer to the accompanying article [Relay/RelayJS  on Rails](https://medium.com/@khor/relay-facebook-on-rails-8b4af2057152)
 
 ## Instructions
 
